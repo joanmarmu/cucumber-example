@@ -17,7 +17,9 @@ exports.config = {
     framework: 'custom',
     frameworkPath: require.resolve('protractor-cucumber-framework'),
     specs: [
-        ''
+        '../../features/xatakaPruebas.1.feature',
+        '../../features/xatakaPruebas.2.feature',
+        '../../features/xatakaPruebas.3.feature'
     ],
     onPrepare: () => {
         protractor_1.browser.ignoreSynchronization = true;

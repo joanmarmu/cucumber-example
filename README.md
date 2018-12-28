@@ -17,6 +17,13 @@ https://nodejs.org/en/download/
 ```
 * All the dependencies from package.json and ambient typings would be installed in node_modules folder.
 
+* Update next dependencies manually
+```
+npm install -g protractor
+npm install -g typescript
+npm install -g ts-node
+```
+
 #### Run Scripts
 
 * First step is to fire up the selenium server which could be done in many ways,  **webdriver-manager** proves very handy for this.The below command should download the **chrome & gecko driver** binaries locally for you!
